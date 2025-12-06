@@ -48,4 +48,12 @@ websockets==15.0.1
 yarl==1.22.0
 python-jose[cryptography]
 cryptography
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+cryptography
+supabase
+pydantic
+email-validator
+python-dotenv
 
