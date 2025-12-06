@@ -29,8 +29,8 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins= origins,  # your Next.js origin
-    allow_credentials=True,
+    allow_origins=["*"],          # TEMP: allow all origins
+    allow_credentials=False,      # must be False if using "*"
     allow_methods=["*"],
     allow_headers=["*"],
 )
