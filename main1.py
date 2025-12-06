@@ -9,7 +9,7 @@ from jose import jwt,JWTError
 from client import supabase
 import os
 
-SECRRET_KEY = os.getenv("SECRET_KEY")
+SECRRET_KEY = os.getenv("SECRRET_KEY")
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME")
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 ALGORITHM = "HS256"
